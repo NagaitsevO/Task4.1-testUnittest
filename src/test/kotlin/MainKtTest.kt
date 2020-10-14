@@ -10,7 +10,7 @@ class MainKtTest {
         var previousSummOfPay = 0.0
         var currentSummOfPay = 56000.0             //560 руб.
 
-        assertEquals(0.0, toFindTheComission(previousSummOfPay, currentSummOfPay, userTypeOfCount) / 100)
+        assertEquals(0.0, toFindTheComission(previousSummOfPay, currentSummOfPay, userTypeOfCount) / 100, 0.0)
     }
 
     @Test
